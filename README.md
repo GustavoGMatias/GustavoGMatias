@@ -1,4 +1,4 @@
-# 👨🏻‍💻 Gustavo Gabriel
+# Gustavo Gabriel
 
 **`Estudante de Ciência da Computação · UFPB`**
 
