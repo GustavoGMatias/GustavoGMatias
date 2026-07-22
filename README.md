@@ -43,7 +43,7 @@ Estudante de Ciência da Computação na Universidade Federal da Paraíba (UFPB)
 <br/>
 <br/>
 
-### 🔬 Áreas de Atuação e Pesquisa
+### Áreas de Atuação e Pesquisa
 
 - Inteligência Artificial
 - Análise e tratamento de dados
