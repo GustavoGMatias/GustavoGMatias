@@ -47,6 +47,6 @@ Estudante de Ciência da Computação na Universidade Federal da Paraíba (UFPB)
 
 - Inteligência Artificial
 - Análise e tratamento de dados
-- Sistemas embarcados
-
+- Sistemas Embarcados
+- Pesquisa Operacional
 
