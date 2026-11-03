@@ -1,6 +1,6 @@
 <div align="center">
 
-### `> Hello, World!` 👾
+<img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=700&size=26&pause=1200&color=58A6FF&center=true&vCenter=true&width=500&height=60&lines=Hello%2C+World!" alt="Hello, World!" /> 👾
 
 **Computer Science Student · AI Researcher · Software Developer**
 
