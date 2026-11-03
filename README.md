@@ -14,7 +14,7 @@ UFPB · Centro de Informática
 
 ---
 
-### `$ whoami`
+### About me
 
 I'm a Computer Science student at the **Federal University of Paraíba (UFPB)**. I enjoy exploring different areas of computing — from Artificial Intelligence and data to software development and embedded systems.
 
@@ -24,7 +24,7 @@ Currently, I'm studying Machine Learning and exploring the development of AI age
 
 ---
 
-### `$ tech-stack --all`
+### Tech stack
 
 <div align="center">
 
@@ -88,7 +88,7 @@ Currently, I'm studying Machine Learning and exploring the development of AI age
 
 ---
 
-### `$ selected-projects`
+### Selected projects
 
 | Project | Description | Technologies |
 |:--|:--|:--|
@@ -99,12 +99,12 @@ Currently, I'm studying Machine Learning and exploring the development of AI age
 
 ---
 
-### `$ github-stats`
+### GitHub statistics
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=GustavoGMatias&show_icons=true&include_all_commits=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=79C0FF" alt="GitHub statistics" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GustavoGMatias&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF" alt="Most used languages" />
+<img height="165" src="https://github-stats-extended.vercel.app/api?username=GustavoGMatias&show_icons=true&include_all_commits=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=79C0FF" alt="GitHub statistics" />
+<img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=GustavoGMatias&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF" alt="Most used languages" />
 
 <img src="https://streak-stats.demolab.com?user=GustavoGMatias&theme=github-dark-blue&hide_border=true&background=0D1117" alt="GitHub contribution streak" />
 
@@ -112,7 +112,7 @@ Currently, I'm studying Machine Learning and exploring the development of AI age
 
 ---
 
-### `$ contributions --play`
+### Contribution arcade
 
 <div align="center">
 
@@ -122,11 +122,6 @@ Currently, I'm studying Machine Learning and exploring the development of AI age
   <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/GustavoGMatias/GustavoGMatias/output/pacman-contribution-graph.svg" />
 </picture>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GustavoGMatias/GustavoGMatias/output/snake-contribution-graph-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/GustavoGMatias/GustavoGMatias/output/snake-contribution-graph.svg" />
-  <img alt="Snake contribution graph" src="https://raw.githubusercontent.com/GustavoGMatias/GustavoGMatias/output/snake-contribution-graph.svg" />
-</picture>
 
 </div>
 
