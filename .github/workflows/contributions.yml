@@ -25,7 +25,7 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          games: "pacman,snake"
+          games: "pacman"
           hide_month_labels: "true"
 
       - name: Publish generated SVGs to output branch
