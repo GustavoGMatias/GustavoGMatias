@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="60" viewBox="0 0 288 60" shape-rendering="crispEdges"><style>
+.neon{animation:hue 4s linear infinite}
+@keyframes hue{0%,100%{fill:#22d3ee}33%{fill:#a78bfa}66%{fill:#f472b6}}
+.tw{animation:tw 2.2s ease-in-out infinite}
+@keyframes tw{0%,100%{opacity:1}50%{opacity:.15}}
+.bl{animation:bl 1s steps(1) infinite}
+@keyframes bl{0%{opacity:1}50%{opacity:0}}
+.eye{animation:eye 3.4s steps(1) infinite}
+@keyframes eye{0%,92%{opacity:1}94%,97%{opacity:0}98%,100%{opacity:1}}
+.fa{animation:fa .4s steps(1) infinite}
+.fb{animation:fb .4s steps(1) infinite}
+@keyframes fa{0%{opacity:1}50%{opacity:0}}
+@keyframes fb{0%{opacity:0}50%{opacity:1}}
+.bob{animation:bob 1.6s ease-in-out infinite}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+.run{animation:run 7s linear infinite}
+@keyframes run{from{transform:translateX(-90px)}to{transform:translateX(980px)}}
+.hop{animation:hop 1.75s ease-out infinite}
+@keyframes hop{0%,55%,100%{transform:translateY(0)}75%{transform:translateY(-34px)}}
+.sc1{animation:sc1 .9s linear infinite}
+@keyframes sc1{to{transform:translateX(-80px)}}
+.sc2{animation:sc2 2.4s linear infinite}
+@keyframes sc2{to{transform:translateX(-120px)}}
+</style><path class="neon" d="M4 0h280v60h-280z M0 4h288v52h-288z"/><path fill="#0b1020" d="M8 4h272v52h-272z M4 8h280v44h-280z"/><path fill="#4c1d95" d="M24 20h4v4h-4zM28 24h4v4h-4zM32 28h4v4h-4zM36 32h4v4h-4zM32 36h4v4h-4zM28 40h4v4h-4zM24 44h4v4h-4zM64 20h16v4h-16zM64 24h4v4h-4zM80 24h4v4h-4zM64 28h4v4h-4zM80 28h4v4h-4zM64 32h16v4h-16zM64 36h4v4h-4zM64 40h4v4h-4zM64 44h4v4h-4zM88 20h16v4h-16zM88 24h4v4h-4zM104 24h4v4h-4zM88 28h4v4h-4zM104 28h4v4h-4zM88 32h16v4h-16zM88 36h4v4h-4zM96 36h4v4h-4zM88 40h4v4h-4zM100 40h4v4h-4zM88 44h4v4h-4zM104 44h4v4h-4zM116 20h12v4h-12zM112 24h4v4h-4zM128 24h4v4h-4zM112 28h4v4h-4zM128 28h4v4h-4zM112 32h4v4h-4zM128 32h4v4h-4zM112 36h4v4h-4zM128 36h4v4h-4zM112 40h4v4h-4zM128 40h4v4h-4zM116 44h12v4h-12zM144 20h12v4h-12zM148 24h4v4h-4zM148 28h4v4h-4zM148 32h4v4h-4zM148 36h4v4h-4zM136 40h4v4h-4zM148 40h4v4h-4zM140 44h8v4h-8zM160 20h20v4h-20zM160 24h4v4h-4zM160 28h4v4h-4zM160 32h16v4h-16zM160 36h4v4h-4zM160 40h4v4h-4zM160 44h20v4h-20zM184 20h20v4h-20zM192 24h4v4h-4zM192 28h4v4h-4zM192 32h4v4h-4zM192 36h4v4h-4zM192 40h4v4h-4zM192 44h4v4h-4zM212 20h12v4h-12zM208 24h4v4h-4zM224 24h4v4h-4zM208 28h4v4h-4zM224 28h4v4h-4zM208 32h4v4h-4zM224 32h4v4h-4zM208 36h4v4h-4zM224 36h4v4h-4zM208 40h4v4h-4zM224 40h4v4h-4zM212 44h12v4h-12zM236 20h16v4h-16zM232 24h4v4h-4zM232 28h4v4h-4zM236 32h12v4h-12zM248 36h4v4h-4zM248 40h4v4h-4zM232 44h16v4h-16z"/><path class="neon" d="M20 16h4v4h-4zM24 20h4v4h-4zM28 24h4v4h-4zM32 28h4v4h-4zM28 32h4v4h-4zM24 36h4v4h-4zM20 40h4v4h-4zM60 16h16v4h-16zM60 20h4v4h-4zM76 20h4v4h-4zM60 24h4v4h-4zM76 24h4v4h-4zM60 28h16v4h-16zM60 32h4v4h-4zM60 36h4v4h-4zM60 40h4v4h-4zM84 16h16v4h-16zM84 20h4v4h-4zM100 20h4v4h-4zM84 24h4v4h-4zM100 24h4v4h-4zM84 28h16v4h-16zM84 32h4v4h-4zM92 32h4v4h-4zM84 36h4v4h-4zM96 36h4v4h-4zM84 40h4v4h-4zM100 40h4v4h-4zM112 16h12v4h-12zM108 20h4v4h-4zM124 20h4v4h-4zM108 24h4v4h-4zM124 24h4v4h-4zM108 28h4v4h-4zM124 28h4v4h-4zM108 32h4v4h-4zM124 32h4v4h-4zM108 36h4v4h-4zM124 36h4v4h-4zM112 40h12v4h-12zM140 16h12v4h-12zM144 20h4v4h-4zM144 24h4v4h-4zM144 28h4v4h-4zM144 32h4v4h-4zM132 36h4v4h-4zM144 36h4v4h-4zM136 40h8v4h-8zM156 16h20v4h-20zM156 20h4v4h-4zM156 24h4v4h-4zM156 28h16v4h-16zM156 32h4v4h-4zM156 36h4v4h-4zM156 40h20v4h-20zM180 16h20v4h-20zM188 20h4v4h-4zM188 24h4v4h-4zM188 28h4v4h-4zM188 32h4v4h-4zM188 36h4v4h-4zM188 40h4v4h-4zM208 16h12v4h-12zM204 20h4v4h-4zM220 20h4v4h-4zM204 24h4v4h-4zM220 24h4v4h-4zM204 28h4v4h-4zM220 28h4v4h-4zM204 32h4v4h-4zM220 32h4v4h-4zM204 36h4v4h-4zM220 36h4v4h-4zM208 40h12v4h-12zM232 16h16v4h-16zM228 20h4v4h-4zM228 24h4v4h-4zM232 28h12v4h-12zM244 32h4v4h-4zM244 36h4v4h-4zM228 40h16v4h-16z"/><rect class="bl" x="258" y="16" width="16" height="28" fill="#22d3ee"/></svg>
