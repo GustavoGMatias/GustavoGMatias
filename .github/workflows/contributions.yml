@@ -20,7 +20,7 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - name: Generate Pac-Man and Snake contribution graphs
+      - name: Generate Pac-Man contribution graph
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
