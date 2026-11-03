@@ -1,104 +1,154 @@
-# 🚢 Análise Exploratória de Dados - Titanic
+<div align="center">
 
-Análise exploratória de dados (EDA) do clássico dataset do Titanic, investigando quais fatores — sexo, classe social, idade, composição familiar, tarifa paga, porto de embarque, entre outros — influenciaram a taxa de sobrevivência dos passageiros.
+<img src="./assets/banner.svg" width="100%" alt="Gustavo Gabriel · CS @ UFPB · AI Researcher @ SAIL Lab" />
 
-Projeto desenvolvido como parte da disciplina de Ciência de Dados, no primeiro semestre do curso de Ciência da Computação (UFPB), sob orientação do professor Miguel Mochizuki.
+<br/>
 
-## 📊 Sobre o dataset
+<a href="https://www.linkedin.com/in/gustavo-gabriel-a37540356"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="https://github.com/GustavoGMatias?tab=followers"><img src="https://img.shields.io/github/followers/GustavoGMatias?style=for-the-badge&logo=github&label=Seguidores&color=8B5CF6&labelColor=1e1b4b" alt="Seguidores" /></a>
+<img src="https://komarev.com/ghpvc/?username=GustavoGMatias&label=Visitas&color=F472B6&style=for-the-badge" alt="Visitas" />
 
-Os dados utilizados são o dataset `titanic` embutido na biblioteca `seaborn`, uma versão simplificada e já tratada do dataset original disponibilizado no Kaggle (891 passageiros, 15 colunas).
+<br/><br/>
 
-## 🎯 Perguntas de pesquisa
+<img src="./assets/titulo-sobre.svg" alt="Quem sou eu" />
 
-A análise foi guiada por perguntas organizadas em blocos temáticos:
+<br/>
 
-**Fatores individuais**
-- O sexo do passageiro influenciou a sobrevivência?
-- A classe social influenciou a sobrevivência?
-- Crianças tiveram vantagem sobre adultos? O sexo importou entre elas?
-- A distribuição de idade difere entre sobreviventes e não sobreviventes?
-- Existe um padrão mais fino de sobrevivência por faixa etária?
+<img src="./assets/ficha.svg" width="100%" alt="Ficha de personagem do Gustavo" />
 
-**Combinações de fatores**
-- Sexo e classe combinados explicam melhor a sobrevivência?
-- A vantagem de ser criança se mantém em todas as classes sociais?
-- O porto de embarque, combinado com a classe, ainda influencia a sobrevivência?
-- O padrão de sobrevivência por idade e sexo se mantém em diferentes classes?
+</div>
 
-**Família e composição do grupo**
-- O tamanho da família influenciou a sobrevivência? Existe um "ponto ideal"?
-- Viajar sozinho fez diferença? De forma igual para homens, mulheres e crianças?
-- `sibsp` (irmãos/cônjuge) e `parch` (pais/filhos) têm efeitos diferentes entre si?
+<br/>
 
-**Fatores econômicos**
-- A tarifa paga influenciou a sobrevivência?
-- Existem outliers relevantes na tarifa? O que eles representam?
-- A tarifa "por cabeça" discrimina melhor do que a tarifa bruta?
-- Pagar mais dentro da mesma classe trouxe vantagem?
+Opa! Eu sou o **Gustavo**, estudo Ciência da Computação na **UFPB** e faço parte do **SAIL** (Social Artificial Intelligence Lab), onde pesquiso IA aplicada. Também sou pesquisador voluntário em projetos com sistemas embarcados. Gosto de pegar problema do mundo real e transformar em software que funciona, de preferência com IA no meio.
 
-**Localização e contexto**
-- O porto de embarque influenciou a sobrevivência, isoladamente ou como variável de confusão?
-- A idade dos passageiros varia entre classes e portos?
+Minha história com pesquisa começou ainda no ensino médio, no Projeto Celso Furtado, construindo pluviômetros artesanais pra ajudar na prevenção de desastres hidrometeorológicos. Desde então não parei. Hoje quero seguir carreira acadêmica (mestrado e doutorado), com interesse especial em **IA aplicada à saúde**.
 
-**Qualidade e estrutura dos dados**
-- Os dados faltantes em `age` seguem algum padrão (viés por classe/sexo)?
-- Existe multicolinearidade entre variáveis numéricas?
-- As linhas duplicadas representam um problema real?
+<br/>
 
-**Engenharia de atributos**
-- É possível combinar sexo e idade numa única variável (`sex_age_score`) que discrimine melhor a sobrevivência?
+<div align="center">
 
-## 🔍 Principais achados
+<img src="./assets/titulo-stack.svg" alt="Minha stack" />
 
-- **Sexo foi o fator individual mais forte**: mulheres tiveram 74,2% de sobrevivência contra 18,9% dos homens.
-- **Classe social teve peso relevante, mas não superou o sexo**: um homem de 1ª classe teve taxa menor que uma mulher de 3ª classe.
-- **"Mulheres e crianças primeiro" funcionou como duas regras distintas**: crianças pequenas foram protegidas independente do sexo; a partir da adolescência, a vantagem feminina se torna dominante.
-- **Tamanho de família ideal**: famílias pequenas/médias (até 4 pessoas) tiveram vantagem; famílias muito grandes ou viajar sozinho reduziram a sobrevivência.
-- **Tarifa e classe estão fortemente ligadas à sobrevivência**, inclusive quando normalizadas por pessoa.
-- **Porto de embarque é uma variável de confusão**: seu efeito aparente é explicado pela composição de classes sociais em cada porto.
-- **Dados faltantes em `age` não são aleatórios**: concentram-se mais na 3ª classe, sugerindo viés na coleta original.
+<br/><br/>
 
-## 🛠️ Tecnologias utilizadas
+**💪 No dia a dia**
 
-- Python 3
-- Jupyter Notebook
-- pandas
-- seaborn
-- matplotlib
-- numpy
+<img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
 
-## 📁 Estrutura do projeto
+**🤖 IA e dados**
 
-```
-.
-├── eda_titanic.ipynb   # Notebook principal com toda a análise
-└── README.md
-```
+<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn" />
+<img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="pandas" />
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
+<img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter" />
 
-## ▶️ Como executar
+**🔌 Embarcados**
 
-```bash
-# clonar o repositório
-git clone <url-do-repo>
-cd <nome-do-repo>
+<img src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP32" />
 
-# criar ambiente virtual (opcional, mas recomendado)
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
+**🧪 Já usei em projeto**
 
-# instalar dependências
-pip install pandas seaborn matplotlib numpy jupyter
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+<img src="https://img.shields.io/badge/Prolog-74283C?style=for-the-badge" alt="Prolog" />
+<img src="https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white" alt="LaTeX" />
 
-# abrir o notebook
-jupyter notebook eda_titanic.ipynb
-```
+**🧰 Ferramentas**
 
-## 📌 Status
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+<img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Ubuntu" />
 
-🚧 Em desenvolvimento — algumas seções ainda podem receber ajustes e refinamentos.
+**🌱 Aprendendo agora**
 
-## 👤 Autor
+<img src="https://img.shields.io/badge/Haskell-5D4F85?style=for-the-badge&logo=haskell&logoColor=white" alt="Haskell" />
+<img src="https://img.shields.io/badge/Machine_Learning-8B5CF6?style=for-the-badge" alt="Machine Learning" />
 
-Gustavo — estudante de Ciência da Computação (UFPB)
+<br/><br/>
 
-Projeto orientado pelo professor Miguel Mochizuki.
+<img src="./assets/divisor.svg" width="100%" alt="" />
+
+<br/><br/>
+
+<img src="./assets/titulo-projetos.svg" alt="Projetos" />
+
+</div>
+
+<br/>
+
+| Projeto | O que é | Stack |
+| :-- | :-- | :-- |
+| 🧭 [**Maze-agent**](https://github.com/GustavoGMatias/Maze-agent) | Agente que resolve labirinto com busca em largura e em profundidade (BFS/DFS) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
+| 🚢 [**EDA-Titanic**](https://github.com/GustavoGMatias/EDA-Titanic) | Análise exploratória dos dados do Titanic | ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white) |
+| 👾 [**Projeto-Logica-Aplicada-Computacao**](https://github.com/GustavoGMatias/Projeto-Logica-Aplicada-Computacao) | Jogo de adivinhação de Pokémon com motor de inferência em Prolog, API HTTP/JSON e interface em React | ![Prolog](https://img.shields.io/badge/Prolog-74283C?style=flat-square) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) |
+| ☕ [**Final-Project-POO**](https://github.com/Gustav0live1ra/Final-Project-POO) | Projeto final de Programação Orientada a Objetos | ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) |
+
+<br/>
+
+<div align="center">
+
+<img src="./assets/titulo-jogos.svg" alt="Jogos" />
+
+<br/><br/>
+
+Meu gráfico de contribuições virou fliperama. Os jogos comem os quadradinhos e se atualizam sozinhos todo dia.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GustavoGMatias/GustavoGMatias/output/pacman-contribution-graph-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/GustavoGMatias/GustavoGMatias/output/pacman-contribution-graph.svg" />
+  <img alt="Pac-Man comendo minhas contribuições" src="https://raw.githubusercontent.com/GustavoGMatias/GustavoGMatias/output/pacman-contribution-graph.svg" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GustavoGMatias/GustavoGMatias/output/snake-contribution-graph-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/GustavoGMatias/GustavoGMatias/output/snake-contribution-graph.svg" />
+  <img alt="Cobrinha comendo minhas contribuições" src="https://raw.githubusercontent.com/GustavoGMatias/GustavoGMatias/output/snake-contribution-graph.svg" />
+</picture>
+
+<details>
+<summary><b>🕹️ Mais jogos</b></summary>
+
+<br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GustavoGMatias/GustavoGMatias/output/galaga-contribution-graph-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/GustavoGMatias/GustavoGMatias/output/galaga-contribution-graph.svg" />
+  <img alt="Galaga nas minhas contribuições" src="https://raw.githubusercontent.com/GustavoGMatias/GustavoGMatias/output/galaga-contribution-graph.svg" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GustavoGMatias/GustavoGMatias/output/breakout-contribution-graph-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/GustavoGMatias/GustavoGMatias/output/breakout-contribution-graph.svg" />
+  <img alt="Breakout nas minhas contribuições" src="https://raw.githubusercontent.com/GustavoGMatias/GustavoGMatias/output/breakout-contribution-graph.svg" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GustavoGMatias/GustavoGMatias/output/tetris-contribution-graph-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/GustavoGMatias/GustavoGMatias/output/tetris-contribution-graph.svg" />
+  <img alt="Tetris nas minhas contribuições" src="https://raw.githubusercontent.com/GustavoGMatias/GustavoGMatias/output/tetris-contribution-graph.svg" />
+</picture>
+
+</details>
+
+<br/>
+
+<img src="./assets/titulo-stats.svg" alt="Stats" />
+
+<br/><br/>
+
+<img src="https://github-readme-stats.vercel.app/api?username=GustavoGMatias&show_icons=true&theme=tokyonight&hide_border=true&border_radius=12&count_private=true&include_all_commits=true" height="170" alt="Stats do GitHub" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GustavoGMatias&layout=compact&langs_count=6&theme=tokyonight&hide_border=true&border_radius=12" height="170" alt="Linguagens mais usadas" />
+
+<br/><br/>
+
+<img src="./assets/divisor.svg" width="100%" alt="" />
+
+**Valeu por passar por aqui! 👾**
+
+</div>
