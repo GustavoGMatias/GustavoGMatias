@@ -99,19 +99,6 @@ Currently, I'm studying Machine Learning and exploring the development of AI age
 
 ---
 
-### GitHub statistics
-
-<div align="center">
-
-<img height="165" src="https://github-stats-extended.vercel.app/api?username=GustavoGMatias&show_icons=true&include_all_commits=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=79C0FF" alt="GitHub statistics" />
-<img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=GustavoGMatias&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF" alt="Most used languages" />
-
-<img src="https://streak-stats.demolab.com?user=GustavoGMatias&theme=github-dark-blue&hide_border=true&background=0D1117" alt="GitHub contribution streak" />
-
-</div>
-
----
-
 ### Contribution arcade
 
 <div align="center">
