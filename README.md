@@ -6,7 +6,7 @@
 
 UFPB · Centro de Informática
 
-<a href="https://www.linkedin.com/in/gustavo-gabriel-a37540356"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="https://www.linkedin.com/in/gustavogamatias"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="https://github.com/GustavoGMatias?tab=followers"><img src="https://img.shields.io/github/followers/GustavoGMatias?style=for-the-badge&logo=github&label=Followers&color=161B22&labelColor=161B22" alt="GitHub followers" /></a>
 <img src="https://komarev.com/ghpvc/?username=GustavoGMatias&style=for-the-badge&color=1F6FEB&label=PROFILE+VIEWS" alt="Profile views" />
 
